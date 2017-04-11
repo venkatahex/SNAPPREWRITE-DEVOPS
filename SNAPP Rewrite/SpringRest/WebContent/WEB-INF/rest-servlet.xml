@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+ <context:component-scan base-package="com.springservice.controller" ></context:component-scan>
+ <mvc:annotation-driven />
+ </beans>
+<span id="ezoic-pub-ad-placeholder-110" class="ezoic-adpicker-ad"></span><div id="link-h-large-1" class="ezo_link_unit_m"><script type="text/javascript">window._mNHandle = window._mNHandle || {};window._mNHandle.queue = window._mNHandle.queue || [];medianet_versionId = "121199";(function() {var sct = document.createElement("script"), sctHl = document.getElementsByTagName("script")[0], isSSL = 'https:' == document.location.protocol;sct.type = "text/javascript";sct.src = (isSSL ? 'https:' : 'http:') + '//contextual.media.net/dmedianet.js?cid=8CUKY1173' + (isSSL ? '&https=1' : '')+'';sct.async = "async";sctHl.parentNode.insertBefore(sct, sctHl);})();</script><span id="527397821" class="ezo_link_unit_m"><script type="text/javascript">try {window._mNHandle.queue.push(function () {window._mNDetails.loadTag("527397821", "728x15", "527397821");});}catch (error) {}</script></span></div>
